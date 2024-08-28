@@ -1,0 +1,218 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #6f6af7;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 2rem;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Sticky social container */
+.social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 3rem;
+  position: sticky;
+  top: 15rem;
+  left: 95vw;
+  border-radius: 0.5rem;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+}
+.social img {
+  width: 2.5rem;
+}
+
+/* Search bar styling */
+.searchbar {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  width: 13rem;
+}
+
+.search-icon {
+  transform: translateX(-2rem);
+  color: #6f7373;
+}
+
+/* Logo styling */
+.logo {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Delius Unicase", cursive;
+  font-weight: 700;
+}
+
+/* Links in navigation */
+.links {
+  display: flex;
+  gap: 5rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.3rem;
+  width: 2rem;
+  background-color: white;
+  height: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+/* Hero box styles */
+.hero-box {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 50vh;
+  width: 80vw;
+  margin-top: -8rem;
+}
+
+.img {
+  height: 100%;
+  width: 30%;
+  border-radius: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hero-right {
+  height: 100%;
+  width: 70%;
+  background-color: #e5d8ff;
+  color: #6f7373;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: "DM Sans", sans-serif;
+  box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+}
+
+/* Info section styling */
+.info {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  margin: 5rem auto 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.info-child {
+  color: white;
+  padding: 1.2rem 3rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Tabs container styling */
+.tabs-container {
+  margin: 4rem auto 10rem;
+  background-color: #483eff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  height: 70vh;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tabs-btn-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  height: 80%;
+  width: 30%;
+}
+
+.tabs-btn {
+  font-size: large;
+  font-weight: 600;
+  padding: 2rem;
+  width: 15rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 3px solid #fff;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.info-display {
+  background-color: #fff;
+  height: 90%;
+  width: 65%;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.active-tab {
+  background-color: #bce0f6;
+  border: none;
+  color: black;
+}
+
+.display-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.sub-desc {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  margin-bottom: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  color: #143565;
+}
+
+.label {
+  color: #04285a;
+  font-weight: 500;
+}
+
+.data {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #6f7373;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #000000;
+  color: white;
+  padding: 0.8rem 2.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+}
